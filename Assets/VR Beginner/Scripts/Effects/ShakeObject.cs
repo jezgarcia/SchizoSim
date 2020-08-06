@@ -12,13 +12,6 @@ public class ShakeObject : MonoBehaviour
     Vector3 m_StartPosition;
     Quaternion m_StartRotation;
     bool m_Shaking = false;
-    public AudioSource audioSource;
-    public AudioClip[] audioClipArray;
-
-    AudioClip RandomClip()
-    {
-        return audioClipArray[Random.Range(0, audioClipArray.Length - 1)];
-    }
 
     void Update()
     {
@@ -33,7 +26,6 @@ public class ShakeObject : MonoBehaviour
     {
         m_StartPosition = transform.localPosition;
         m_StartRotation = transform.localRotation;
-        audioSource.PlayOneShot(RandomClip());
         m_Shaking = true;
     }
 
