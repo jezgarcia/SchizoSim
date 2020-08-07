@@ -183,17 +183,17 @@ PrefabInstance:
     - target: {fileID: 3888556352052497394, guid: f125cb860e3b1e44585ab587487f3e98,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.562
+      value: 19.212
       objectReference: {fileID: 0}
     - target: {fileID: 3888556352052497394, guid: f125cb860e3b1e44585ab587487f3e98,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.515
+      value: 1.503
       objectReference: {fileID: 0}
     - target: {fileID: 3888556352052497394, guid: f125cb860e3b1e44585ab587487f3e98,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.105
+      value: 18.668
       objectReference: {fileID: 0}
     - target: {fileID: 3888556352052497394, guid: f125cb860e3b1e44585ab587487f3e98,
         type: 3}
@@ -2261,11 +2261,71 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 204317206}
     m_Modifications:
+    - target: {fileID: 1833191625520553981, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: audioClipArray.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1833191625520553981, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1253144251}
+    - target: {fileID: 1833191625520553981, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: volume
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1833191625520553981, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: audioClipArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: e02e98dd2608d4540a5caf08ba6fb9bb, type: 3}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnFirstHoverEnter.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
         type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 20024031}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnFirstHoverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnFirstHoverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnFirstHoverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnFirstHoverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1432654343}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnFirstHoverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: TeleporterAnim, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnFirstHoverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayAudioClip
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnFirstHoverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846497, guid: 21a9b655c2d703344abc684145092a05,
         type: 3}
       propertyPath: m_Name
@@ -2330,6 +2390,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Convex
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219463883988533150, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_Name
+      value: TeleporterBeamRed-Lost
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21a9b655c2d703344abc684145092a05, type: 3}
@@ -3457,7 +3522,7 @@ PrefabInstance:
     - target: {fileID: 3888556352052497394, guid: f125cb860e3b1e44585ab587487f3e98,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.564
+      value: 19.458
       objectReference: {fileID: 0}
     - target: {fileID: 3888556352052497394, guid: f125cb860e3b1e44585ab587487f3e98,
         type: 3}
@@ -3467,7 +3532,7 @@ PrefabInstance:
     - target: {fileID: 3888556352052497394, guid: f125cb860e3b1e44585ab587487f3e98,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.077
+      value: 18.431
       objectReference: {fileID: 0}
     - target: {fileID: 3888556352052497394, guid: f125cb860e3b1e44585ab587487f3e98,
         type: 3}
@@ -9963,7 +10028,7 @@ PrefabInstance:
     - target: {fileID: 7302615220216591806, guid: f9052a9252653184899af8729f925707,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.489
+      value: 19.08
       objectReference: {fileID: 0}
     - target: {fileID: 7302615220216591806, guid: f9052a9252653184899af8729f925707,
         type: 3}
@@ -9973,7 +10038,7 @@ PrefabInstance:
     - target: {fileID: 7302615220216591806, guid: f9052a9252653184899af8729f925707,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.114
+      value: 18.677
       objectReference: {fileID: 0}
     - target: {fileID: 7302615220216591806, guid: f9052a9252653184899af8729f925707,
         type: 3}
@@ -10351,7 +10416,7 @@ PrefabInstance:
     - target: {fileID: 3914636937022303095, guid: 4bf7c8ebd37aa3d4f8a0aa1788dd6c15,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.618
+      value: 19.524
       objectReference: {fileID: 0}
     - target: {fileID: 3914636937022303095, guid: 4bf7c8ebd37aa3d4f8a0aa1788dd6c15,
         type: 3}
@@ -10361,7 +10426,7 @@ PrefabInstance:
     - target: {fileID: 3914636937022303095, guid: 4bf7c8ebd37aa3d4f8a0aa1788dd6c15,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.069
+      value: 18.371
       objectReference: {fileID: 0}
     - target: {fileID: 3914636937022303095, guid: 4bf7c8ebd37aa3d4f8a0aa1788dd6c15,
         type: 3}
@@ -10436,7 +10501,7 @@ PrefabInstance:
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.019
+      value: 18.763
       objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05,
         type: 3}
@@ -10446,7 +10511,7 @@ PrefabInstance:
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 23.108
+      value: 22.927
       objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05,
         type: 3}
@@ -11954,6 +12019,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1386912389}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1432654343 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1833191625520553981, guid: 21a9b655c2d703344abc684145092a05,
+    type: 3}
+  m_PrefabInstance: {fileID: 370987197}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8252fcde549ed1c46b71d64b4166f814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1463915204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12604,11 +12681,81 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 204317206}
     m_Modifications:
+    - target: {fileID: 1833191625520553981, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: audioClipArray.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1833191625520553981, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1253144251}
+    - target: {fileID: 1833191625520553981, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: audioClipArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 3b4e993b58775c44f8733595a4ca922e, type: 3}
+    - target: {fileID: 1833191625520553981, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: audioClipArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6bf614fc4b3801942b9e580600a08170, type: 3}
+    - target: {fileID: 1833191625520553981, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: volume
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1833191625520553981, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: audioClipArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: f756981ffaa6e1144ab1f3bc06a2356f, type: 3}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnFirstHoverEnter.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
         type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 20024031}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnFirstHoverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnFirstHoverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnFirstHoverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnFirstHoverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2021897096}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnFirstHoverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: TeleporterAnim, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnFirstHoverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayAudioClip
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnFirstHoverEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846497, guid: 21a9b655c2d703344abc684145092a05,
         type: 3}
       propertyPath: m_Name
@@ -12673,6 +12820,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Convex
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219463883988533150, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_Name
+      value: TeleporterBeamRed-Kitchen
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21a9b655c2d703344abc684145092a05, type: 3}
@@ -14325,6 +14477,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1684759484}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1693175279 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1833191625520553981, guid: 21a9b655c2d703344abc684145092a05,
+    type: 3}
+  m_PrefabInstance: {fileID: 1995509313}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8252fcde549ed1c46b71d64b4166f814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1700071244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15261,11 +15425,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 204317206}
     m_Modifications:
+    - target: {fileID: 1833191625520553981, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: audioClipArray.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1833191625520553981, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1253144251}
+    - target: {fileID: 1833191625520553981, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: audioClipArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4915f818bafccba4b8a81b6146fdd733, type: 3}
+    - target: {fileID: 1833191625520553981, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: volume
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
         type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 20024031}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnLastHoverExit.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1693175279}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnLastHoverExit.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayAudioClip
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282336950282846496, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_OnLastHoverExit.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: TeleporterAnim, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846497, guid: 21a9b655c2d703344abc684145092a05,
         type: 3}
       propertyPath: m_Name
@@ -15325,6 +15524,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282336951264404694, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282336951264404694, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7219463883988533150, guid: 21a9b655c2d703344abc684145092a05,
+        type: 3}
+      propertyPath: m_Name
+      value: TeleporterBeamRed-Key
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21a9b655c2d703344abc684145092a05, type: 3}
@@ -15688,6 +15902,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6f09ea75abbda04fabde0f9b5e50cee, type: 3}
+--- !u!114 &2021897096 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1833191625520553981, guid: 21a9b655c2d703344abc684145092a05,
+    type: 3}
+  m_PrefabInstance: {fileID: 1527881869}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8252fcde549ed1c46b71d64b4166f814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2072831638
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16570,7 +16796,7 @@ PrefabInstance:
     - target: {fileID: 7769370493823478600, guid: 9bf1ea7e4e3a766428ef3f8802039887,
         type: 3}
       propertyPath: audioClipArray.Array.size
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7769370493823478600, guid: 9bf1ea7e4e3a766428ef3f8802039887,
         type: 3}
@@ -16581,7 +16807,7 @@ PrefabInstance:
         type: 3}
       propertyPath: audioClipArray.Array.data[0]
       value: 
-      objectReference: {fileID: 8300000, guid: 39f47a5988aabfd418d4815b69cca7a8, type: 3}
+      objectReference: {fileID: 8300000, guid: 861651558ca940547a42f2ba9c73c8b7, type: 3}
     - target: {fileID: 7769370493823478600, guid: 9bf1ea7e4e3a766428ef3f8802039887,
         type: 3}
       propertyPath: audioClipArray.Array.data[1]
@@ -16602,6 +16828,11 @@ PrefabInstance:
       propertyPath: audioClipArray.Array.data[4]
       value: 
       objectReference: {fileID: 8300000, guid: 593010e70058e0641b1941b87f5c8ca1, type: 3}
+    - target: {fileID: 7769370493823478600, guid: 9bf1ea7e4e3a766428ef3f8802039887,
+        type: 3}
+      propertyPath: volume
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bf1ea7e4e3a766428ef3f8802039887, type: 3}
 --- !u!1001 &1852093257237799060
