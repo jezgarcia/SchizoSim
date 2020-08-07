@@ -21,8 +21,17 @@ public class TeleporterAnim : MonoBehaviour
     MeshRenderer m_MeshRenderer;
     MaterialPropertyBlock m_Block;
 
+    public AudioSource audioSource;
+    public AudioClip[] audioClipArray;
+    public float volume = 0.5f;
+
     int m_AlphaIntensityID;
-    
+
+    AudioClip RandomClip()
+    {
+        return audioClipArray[Random.Range(0, audioClipArray.Length - 1)];
+    }
+
     void Start()
     {
         m_MeshRenderer = GetComponent<MeshRenderer>();
@@ -66,5 +75,10 @@ public class TeleporterAnim : MonoBehaviour
     public void StopHighlight()
     {
         m_Highlighted = false;
+    }
+
+    public void PlayAudioClip()
+    {
+        audioSource.PlayOneShot(RandomClip(), volume);
     }
 }
