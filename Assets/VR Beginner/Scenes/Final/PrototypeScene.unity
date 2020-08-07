@@ -14175,6 +14175,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4547729963114285399, guid: 58e70592c837bbe4897359258333f245,
+        type: 3}
+      propertyPath: audioClipArray.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4547729963114285399, guid: 58e70592c837bbe4897359258333f245,
+        type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1253144251}
+    - target: {fileID: 4547729963114285399, guid: 58e70592c837bbe4897359258333f245,
+        type: 3}
+      propertyPath: volume
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4547729963114285399, guid: 58e70592c837bbe4897359258333f245,
+        type: 3}
+      propertyPath: audioClipArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 61deb928a69cbdd4b9f90557be35b2b6, type: 3}
     - target: {fileID: 6811919396552750374, guid: 58e70592c837bbe4897359258333f245,
         type: 3}
       propertyPath: m_Name
@@ -14257,7 +14277,7 @@ PrefabInstance:
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.478
+      value: -4.404
       objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05,
         type: 3}
@@ -14267,7 +14287,7 @@ PrefabInstance:
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.562
+      value: 6.945
       objectReference: {fileID: 0}
     - target: {fileID: 2282336950282846500, guid: 21a9b655c2d703344abc684145092a05,
         type: 3}
